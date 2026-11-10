@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /private
+Disallow: /temp
+
+# Google bot specific
+User-agent: Googlebot
+Allow: /
+
+# Bing bot specific
+User-agent: Bingbot
+Allow: /
+
+# Sitemap
+Sitemap: https://centromedicopedrodetoledo.com.br/sitemap.xml
+
+# Crawler delay
+Crawl-delay: 1
